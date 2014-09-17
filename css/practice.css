@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    body{
+      background-color: AntiqueWhite;
+    }
+        h1{
+            color: ForestGreen;
+            font-family: cursive;
+            font-size: 30px;
+        }
+        
+        h2{
+            color: LightCoral;
+            text-align: center;
+            font-family: cursive;
+            font-size: 20px;
+        }
+        
+        p{
+            font-family: Arial;
+            font-size: 18px;
+            color: black;
+        }
+        
+        header{
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        }
+</head>
+</html>    
