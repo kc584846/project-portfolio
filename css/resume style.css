@@ -14,4 +14,22 @@ h2{
 h3{
     font-style: oblique;
 }
-    
+.current, .permanent{
+    font-family: monospace;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.permanent{
+    float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

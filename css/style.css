@@ -7,33 +7,44 @@ Twi Highlights (purple) - #E837E9
 
 */
 
-a{
-    color: #FE4E36;
+header{
+    background-color: #dddddd;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+    font-style: oblique;
 }
 
+p, ul{
+    font-family: monospace;
+    font-size: 14px;
+}
+a{
+    color: #E837E9;
+}
 h1{
     color: #FE4E36;
 }
-
+h2{
+    color: #F81B7A;
+}
+    
 .color1{
-    width: 200px;
-    height: 200px;
     background-color: #FE4E36;
 }
 
 .color2{
-    width: 200px;
-    height: 200px;
     background-color: #F81B7A;
 }
 
 .color3{
-    width: 200px;
-    height: 200px;
     background-color: #E837E9;
 }
-
-h2{
-    color: #E837E9;
-{
-
+    
+.colorsquare{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
