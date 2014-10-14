@@ -1,9 +1,14 @@
 body{
-    background-color: #E3AAD6;
+    background-image: url('../images/logo_x_pattern.png');
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;    
+    padding-top: 0%;
 }
 h1{
     font-style: italic;
     color: #F81B7A; 
+    text-align: center;
 }
 
 h2{
@@ -33,3 +38,5 @@ h3{
 .cf:after {
     clear: both;
 }
+
+
