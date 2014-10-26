@@ -1,0 +1,51 @@
+body{
+    background-image: url('../images/logo_x_pattern.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    border-style: solid;
+    border-color: #93DFB8;
+    border-width: thick;
+}
+
+.text{
+    margin: 6%;
+}
+
+h1{
+    font-family: monospace;
+    color: purple;
+}
+
+h2{
+    font-style: oblique;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+p, ul{
+    font-family: Century Gothic;
+    color: #9061C2;
+}
+
+ol{
+    font-family: Arial;
+    color: #02779E;
+}
+
+.video1{
+    padding-left: 8%;
+    padding-right: 15%;
+}
+
+.video2{
+    padding-left: 16%;
+    padding-right: 7%;
+}
+
+.video3{
+    padding-left: 24%;
+}
+
+#link, #link2, #link3{
+    font-style: italic;
+}

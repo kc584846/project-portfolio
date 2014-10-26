@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-size: 30px;
+    background-image:url('../images/beach.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-style: oblique;
+}
+
+h2{
+    color: yellow;
+}
