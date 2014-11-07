@@ -7,12 +7,14 @@ Twi Highlights (purple) - #E837E9
 
 */
 
+@import url(http://fonts.googleapis.com/css?family=Anton)
+
 h1{
-    font-family: "Lucida Bright", Georgia, serif;
+    font-family: 'Anton', sans-serif;
 }
 
 h2{
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-family: sans-serif;
 }
 
 header{
@@ -68,4 +70,8 @@ text-decoration: none;
 .site-footer a:hover{
 color: yellow;
 text-decoration: underline;    
+}
+
+.footer li{
+    list-style: none;
 }
