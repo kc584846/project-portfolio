@@ -7,42 +7,51 @@ Twi Highlights (purple) - #E837E9
 
 */
 
-@import url(http://fonts.googleapis.com/css?family=Anton)
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Kreon);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
-h1{
-    font-family: 'Anton', sans-serif;
-}
-
-h2{
-    font-family: sans-serif;
+body{
+    padding: 3%;
+    background-image: url('../images/logo_x_pattern.png');
+    background-attachment: fixed;
 }
 
 header{
     background-color: #dddddd;
-    width: 70%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 50px;
     font-style: oblique;
+    color: #F81B7A;
+    font-family: 'Anton', sans-serif;
+}
+
+.main h2, .sidebar h2{
+    font-family: 'Lobster', cursive;
 }
 
 p, ul{
     font-size: 20px;
+    font-family: 'Kreon', serif;
 }
 
-a{
-    color: #E837E9;
+p{
+    padding: 3%;
 }
 
-h1{
+li{
+    padding: 5%;
+}
+
+.sidebar li{
+    font-family: 'Kreon', serif;
+    text-decoration: none;
     color: #FE4E36;
 }
 
-h2{
-    color: #F81B7A;
-}
-    
 .color1{
     background-color: #FE4E36;
 }
@@ -62,16 +71,41 @@ h2{
 }
 
 .site-footer a{
-font-size: 20px;
-color: purple;
-text-decoration: none;    
+    font-size: 20px;
+    color: #E837E9;
+    text-decoration: none;  
+    padding: 13%;
 }
 
 .site-footer a:hover{
-color: yellow;
+color: #FE4E36;
 text-decoration: underline;    
 }
 
-.footer li{
-    list-style: none;
+footer{
+    border: solid;
+    display: inline-block;
+    margin: 2%;
+}
+
+.main{
+    float: left;
+    width: 70%;
+    border: solid;
+    padding: 3%;
+}
+
+.sidebar{
+    float: right;
+    width: 25%;
+    border: solid;
+    padding: 3%;
+}
+
+.sidebar a{
+    color: #F81B7A;
+}
+
+.sidebar a:hover{
+    color: #E837E9;
 }
