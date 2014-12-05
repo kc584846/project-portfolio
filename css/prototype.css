@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Anton);
 @import url(http://fonts.googleapis.com/css?family=Kreon);
 
+<!--PinkPhreak - #F81B7A
+'roundTheClockOrange - #FE4E36
+Twi Highlights (purple) - #E837E9 -->
+
 img{
     width: 600px;
     height: 430px;
@@ -12,16 +16,20 @@ img{
 
 h1{
     font-family: 'Anton', sans-serif;
-    color: #BE80FF;
+    color: #FE4E36;
 }
 
 h2{
     font-family: 'Kreon', serif;
-    color: #93DFB8;
+    color: #E837E9;
 }
 
 body{
     background-image: url('../images/pinkish.jpg');
     background-size: cover;
+}
+
+.container{
+    padding: 3%;
 }
     

@@ -4,21 +4,33 @@
         <title></title>
         <style>
         th, td {
-            border: 2px solid purple;
+            border: 4px solid purple;
             padding: 10px 15px;
-            font-family: monospace;
-            background-color: pink;
+            font-family: fantasy;
+            font-size: 30px;
+            background-color: yellow;
+        }
+        .container {
+            padding: 5%;
         }
         </style>
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>  
+        
     </head>
     <body>
+        <div class="container">
         <table>
             <tr>
-                <th>Movies</th>
-                <th>Distributor</th>
-                <th>Release Date </th>
-                <th>Gross</th>
-                <th>Source</th>
+                <th>Movies<span class="glyphicon glyphicon-film"></span></th>
+                <th>Distributor<span class="glyphicon glyphicon-user"></span></th>
+                <th>Release Date<span class="glyphicon glyphicon-ok"></span></th>
+                <th>Gross<span class="glyphicon glyphicon-usd"></span></th>
+                <th>Source<span class="glyphicon glyphicon-hand-up"></span></th>
             </tr>
             <tr>
                 <td> <a href="http://www.youtube.com/watch?v=czFqCdNRHqQ">Harry Potter</a></td>
@@ -56,6 +68,7 @@
                 <td> <a href="http://www.boxofficemojo.com/movies/?id=rent.htm">Musician</a> </td> 
             </tr>
         </table>
+        </div>    
     </body>
 
 </html>
